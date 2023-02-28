@@ -1,0 +1,17 @@
+import { Injectable } from '@angular/core';
+
+@Injectable({
+  providedIn: 'root'
+})
+export class MyservService {
+
+  constructor() { }
+  valid(){
+    if(localStorage.getItem('data')){
+      return true;
+    }
+    else{
+      return false;
+    }
+  }
+}

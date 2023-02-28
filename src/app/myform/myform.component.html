@@ -1,0 +1,18 @@
+<!-- <p>myform works!</p> -->
+<form #myform="ngForm" (ngSubmit)="submit(myform.value)"
+*ngIf="imold">
+    <label for="login">login</label>
+    <input type="text" name="email" id="email" ngModel placeholder="email">
+    <input type="password" name="password" id="password" ngModel placeholder="password">
+    <button type="submit">submit</button>
+    <button (click)="newuser()"> signup</button>
+</form>
+<form #myform="ngForm" (ngSubmit)="signup(myform.value)"
+*ngIf="!imold">
+    <label for="login">signup </label>
+    <input type="text" name="name" id="name" ngModel placeholder="name">
+    <input type="text" name="email" id="email" ngModel placeholder="email">
+    <input type="password" name="password" id="password" ngModel placeholder="password">
+    <button type="submit">submit as new user </button>
+    <button (click)="olduser()">alredy user click to login</button>
+</form>
