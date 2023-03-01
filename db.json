@@ -1,28 +1,31 @@
 {
   "seller": [
     {
-      "email": "aaa",
-      "password": "abc",
+      "email": "a",
+      "password": "a",
       "id": 1
     },
     {
-      "email": "bbb",
-      "password": "abc",
+      "email": "b",
+      "password": "b",
       "id": 2
     },
     {
-      "email": "ccc",
-      "password": "abc",
+      "name": "a",
+      "email": "a",
+      "password": "a",
       "id": 3
     },
     {
-      "email": "ccc",
-      "password": "abc",
+      "name": "d",
+      "email": "d",
+      "password": "d",
       "id": 4
     },
     {
-      "email": "ddd",
-      "password": "abc",
+      "name": "sahil",
+      "email": "sahilgmail",
+      "password": "sahil",
       "id": 5
     }
   ]
